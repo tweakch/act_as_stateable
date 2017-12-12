@@ -10,10 +10,6 @@ In your Gemfile:
 
     $ gem 'acts_as_stateable'
 
-Or, from the command line:
-
-    $ gem install acts_as_stateable
-
 And then execute:
 
     $ bundle
