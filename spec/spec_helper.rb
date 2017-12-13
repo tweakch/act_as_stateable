@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "act_as_stateable"
+require "acts_as_stateable"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

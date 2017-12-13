@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "act_as_stateable/version"
+require "acts_as_stateable/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "act_as_stateable"
-  spec.version       = ActAsStateable::VERSION
+  spec.name          = "acts_as_stateable"
+  spec.version       = ActsAsStateable::VERSION
   spec.authors       = ["Alexander Klee"]
   spec.email         = ["alex.klee@outlook.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.homepage      = "http://www.github.com/tweakch/act_as_stateable"
+  spec.summary       = "%A gem that lets you add state flags to your active records"
+  spec.homepage      = "http://www.github.com/tweakch/acts_as_stateable"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
