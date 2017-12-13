@@ -44,7 +44,7 @@ RSpec.describe ActsAsStateable do
   # flag   00001
   # expect 00010
   it "re-unsets unset flag on mask" do
-    expect(ActsAsStateable.set(2,1)).to eq(2)
+    expect(ActsAsStateable.unset(2,1)).to eq(2)
   end
   
   # mask   10110 = 22

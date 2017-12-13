@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Alexander Klee"]
   spec.email         = ["alex.klee@outlook.com"]
 
-  spec.summary       = "%A gem that lets you add state flags to your active records"
+  spec.summary       = "A gem that lets you add state flags to your active records"
   spec.homepage      = "http://www.github.com/tweakch/acts_as_stateable"
   spec.license       = "MIT"
 
